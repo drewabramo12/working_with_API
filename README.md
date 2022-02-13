@@ -7,3 +7,11 @@ The purpose of this project was to leverage both gmaps and OpenWeather APIs to c
 
 The project showed created the following maps and based on the parameters set if between 75 and 90 maximum degrees farenheit, it would be reccomended to travel to Australia for a trip.
 
+![Temperate map](https://github.com/drewabramo12/working_with_API/blob/main/Vacation_Search/WeatherPy_vacation_map.PNG)
+
+![Temperate map](https://github.com/drewabramo12/working_with_API/blob/main/Vacation_Itinerary/WeatherPy_travel_map.PNG)
+
+![Temperate map](https://github.com/drewabramo12/working_with_API/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.PNG)
+
+### Challenges
+The most significant issue occurred within the creation and application of this project. The first was determining how to collect the Current Description column within the city_data DataFrame. This was solved by applying the line of code `city_current_weather = city_weather["weather"][0]["description"]`. The dictionary index indicator of `[0]` was what was missing. 
